@@ -1,22 +1,12 @@
 import Header from "./Header"
-import Login,{Profile,Setting,UserKey} from "./components/UserComponent"
-import JSXDemo from "./components/JSXDemo"
-import withoutJSX from "./components/withoutJSX"
-function Apple() {
+import JsxExcerse from "./components/jsxExcerse"
+function App() {
   return(
     <div>
-      <Header />      
-      {/* <h1>Hello World</h1>
-      <h2>Code By Abhi</h2>
-      <Login />
-      <Profile />
-      <Setting /> */}
-      {/* <h1>{UserKey}</h1> */}
-      <JSXDemo />
-      <withoutJSX />
-
+      <Header /> 
+      <JsxExcerse />
     </div>
   )
 }
 
-export default Apple;
+export default App;
