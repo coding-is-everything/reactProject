@@ -1,7 +1,7 @@
 import Header from "./Header"
 import Login,{Profile,Setting,UserKey} from "./components/UserComponent"
 import JSXDemo from "./components/JSXDemo"
-
+import withoutJSX from "./components/withoutJSX"
 function Apple() {
   return(
     <div>
@@ -13,6 +13,7 @@ function Apple() {
       <Setting /> */}
       {/* <h1>{UserKey}</h1> */}
       <JSXDemo />
+      <withoutJSX />
 
     </div>
   )
